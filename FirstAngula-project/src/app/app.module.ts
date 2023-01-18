@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CursosModule } from './cursos/cursos.module';
 import { MyFirstComponent } from './my-first/my-first.component';
 import { MyFirst2Component } from './my-first2/my-first2.component';
 
@@ -15,6 +16,7 @@ import { MyFirst2Component } from './my-first2/my-first2.component';
   imports: [
     BrowserModule,
     AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
